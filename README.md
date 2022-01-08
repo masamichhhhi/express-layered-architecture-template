@@ -7,7 +7,7 @@
 - domain/repository: infrastructureのインターフェースだけ定義する。
 - infrastructure: DB接続などの実装はここ。domain/repositoryに依存する。
 
-eslint
+## eslint
 ```bash
 # 自動修正
 $ npm run eslint -- --fix --ext '.js,.ts' ./src/**"
